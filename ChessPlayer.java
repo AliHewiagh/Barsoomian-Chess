@@ -20,7 +20,7 @@ public class ChessPlayer {
 
     ChessPlayer() {
         iCurrentPlayer = 1;
-        System.out.println("current player =  " + getCurrentPlayer());
+        System.out.println("current player =  "+ getCurrentPlayer());
 
         bHasSelectedStone = false;
         iCurrentSelectedStoneType = 0;
